@@ -2,4 +2,4 @@
 
 Text
 
-![](prefixes.md)
+![](/prefixes.md)
