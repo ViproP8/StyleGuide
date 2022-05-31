@@ -2,4 +2,4 @@
 
 Text
 
-![Einsatz von Präfixen](/prefixes.md)
+[Einsatz von Präfixen](/prefixes.md)
