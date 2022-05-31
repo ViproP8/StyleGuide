@@ -6,6 +6,6 @@ Formalparameter von Bausteinen werden ohne Präfixe verwendet. Auch bei der Übe
 
 ## Temoräre und statische Variablen mit Präfix "temp" bzw. "stat"
 
-Um statische und temporäre Variablen klar von Formalparametern im Code zu trennen, werden die Präfixe **"temp_"** bzw. **"stat_"** verwendet.
+Um statische und temporäre Variablen klar von Formalparametern im Code zu trennen, werden die Präfixe **temp_** bzw. **stat_** verwendet.
 
 
