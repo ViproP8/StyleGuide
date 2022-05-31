@@ -17,7 +17,7 @@ Für die Wartbarkeit und Übersichtlichkeit des Quellcodes ist es zunächst erfo
 * Einfache und schnelle Fehlererkennung und -korrektur
 * Effiziente Zusammenarbeit zwischen mehreren Programmierern
 
-
+[Begrifssklärung](/clarificationOfTerms.md)
 [Einsatz von Präfixen](/prefixes.md)
 
 
