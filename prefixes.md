@@ -51,6 +51,14 @@ Präfix | Typ
 -------- |  ---------------
 **type** | **PLC-Datentyp** <br> Nur der PLC-Datentyp erhält das Präfix, nicht die enthaltenen Elemente <br> &rarr; typeConveyorSetpoints <br> &rarr; **typeMovikitPositioning**
 
+## PLC-Variablen 
+
+PLC-Variablen wird der Präfix ***di_*** für Einangsvariablen bzw. ***dq_*** für Ausgangsvariablen verwendet. Bei der Nutzung von mehreren Zugriffspunkten (ET-Station an mehreren Standorten), wird die Ortsbezeichnung hinzugefügt. ***di_010_*** bzw. ***dq_010_***.
+
+Präfix | Typ
+-------- |  ---------------
+**di_** | **PLC-Eingangsvariable** <br> &rarr; di_MagazineLow <br> &rarr; **di_010_ConveyorClear**
+**dq_** | **PLC-Ausgangsvariable** <br> &rarr; dq_enableServo <br> &rarr; **dq_010_enableConveyor**
 
 ## Bezeichner von Konstanten GROSS schreiben
 
