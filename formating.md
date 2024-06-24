@@ -25,6 +25,11 @@ Kommentarfelder und Eigenschaftsfelder sind zu verwenden und mit sinnvollen Komm
 * PLC-Meldetextlisten
 * Bibliothekseigenschaften
 
+Ein Kommentar liefert dem Leser Information darüber, warum etwas an der
+betreffenden Stelle getan wird. Er darf nicht den Code als redundanten Klartext
+wiedergeben – also nicht was getan wird – das beschreibt bereits der Code –
+sondern warum es getan wird.
+
 ## Entwicklerinformationen dokumentieren 
 
 Jeder Baustein erhält einen Beschreibungskopf im Programmcode (SCL) bzw. im Blockkommentar (KOP, FUP). Darin müssen die wichtigsten Informationen zur
