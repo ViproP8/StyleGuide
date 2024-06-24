@@ -11,6 +11,13 @@ auf dessen Funktionalität bzw. Verwendung zu.
 * Funktionen/ Funktionsbausteine beginnen nach Möglichkeit mit einem Verb, z. B. "Get", "Set", "Put", "Find", "Search", "Calc".
 * Ist der Bezeichner ein Arraybezeichner, ist er im Plural zu verwenden. Unzählbare Nomen bleiben im Singular ("data", "information", "content").
 * Statische und temporäre Boolesche Variablen sind häufig zustandsanzeigende Variablen. In einem solchen Falle sind Namen mit "is", "can" oder "has" am eingängigsten und verständlichsten.
+  
+|  |Korrekte Namen | Falsche Namen |
+| -------- | -------- | -------- |
+| Für Arrays   | data <br> beltConveyors| datas <br> beltConveyors   |
+| Für statische und temporäre <br> Boolesche Variablen, die <br> einen Zustand anzeigen   | isConnected <br> canScan   | connected <br> scan   |
+| Für weitere Boolesche Variablen   | enable   | setEnable   |
+| Für Funktionen/Funktionsbausteine   | GetMachineState <br> CheckPath | MachineStateFC <br> fb_CheckPath   |
 
 ## Sinnvolle Komentare und Eigenschaften verwenden
 
