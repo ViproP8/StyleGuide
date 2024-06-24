@@ -31,7 +31,7 @@ Um statische und temporäre Variablen klar von Formalparametern im Code zu trenn
 Präfix | Typ
 -------- |  ---------------
 **stat_** | **Statische Variable** <br> Kein Zugriff auf die Lokaldaten von außerhalb erlaubt <br> &rarr; **stat_enableDrive**
-**temp_**| **Temporäre Variable** <br> Kein Zugruff auf die Lokaldaten von außerhalb möglich <br> &rarr; **temp_CenteringHomed**
+**tmp_**| **Temporäre Variable** <br> Kein Zugruff auf die Lokaldaten von außerhalb möglich <br> &rarr; **temp_CenteringHomed**
 
 ***Begründung:*** Dies erleichter dem Programmierer eines Bausteins die Unterscheidung zwischen Formalparameter und Lokaldaten. Dadurch können sofort die ZUgriffsrechte auf die Variable für den Benutzer definiert und erkannt werden.
 
